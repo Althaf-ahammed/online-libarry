@@ -1,0 +1,40 @@
+.nav-item .nav-link{
+    color: rgb(1, 1, 57);
+}
+#logo{
+    color: rgb(3, 3, 39);
+}
+#coverImage{
+    height: 75%;
+    width: 100%;
+}
+#cover{
+    background-image: url("https://cdn.wallpapersafari.com/43/11/IuyQGZ.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+}
+#cover h1{
+    color: white;
+    font-weight: 700; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nav-link:hover {
+    background-color: rgb(1, 1, 57);
+    color: white;
+}
+.btn-bd-primary {
+    background-color:rgb(1, 1, 57) ;
+    color: white;
+}
+.btn-bd-primary:hover {
+    background-color: rgb(9, 9, 81);
+    color: rgb(228, 222, 222);
+}
+.fadeIn{
+    animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
