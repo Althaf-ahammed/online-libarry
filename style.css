@@ -9,17 +9,18 @@
     width: 100%;
 }
 #cover{
-    background-image: url("https://cdn.wallpapersafari.com/43/11/IuyQGZ.jpg");
+    background-image: url("https://media.istockphoto.com/id/926243036/photo/stack-of-books-background-many-books-piles.jpg?s=170667a&w=0&k=20&c=-l2kE6RSIxNHsE3EHR3G6JunyO0_wTyynoY7hVVxhEI=");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 500px;
+    padding-left: 10%;
 }
 #cover h1{
-    color: white;
+    color:  rgb(1, 1, 57);
     font-weight: 700; 
     font-family: 'Source Sans Pro', sans-serif;
 }
-.nav-link:hover {
+.nav-link:hover{
     background-color: rgb(1, 1, 57);
     color: white;
 }
@@ -38,3 +39,22 @@
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
+#bookSearch{
+    width: 20%;
+}
+#footer{
+    background-color: aliceblue;
+    padding: 3% 0 ;
+}
+#featuredCollection img{
+    height: 75%;
+}
+#featuredCollection{
+    margin-top: 40px;
+}
+#featuredCollection h1{
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+
+
